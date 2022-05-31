@@ -1,6 +1,6 @@
-# while True:
-#     has_letter = False
-#     has_digit = False
+while True:
+    has_letter = False
+    has_digit = False
 #     has_symbol = False
 #     password = input("Send your password: ")
 #     try:
