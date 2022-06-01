@@ -1,27 +1,6 @@
-while True:
-    has_letter = False
-    has_digit = False
-#     has_symbol = False
-#     password = input("Send your password: ")
-#     try:
-#         if len(password) < 8:
-#             raise ValueError("short password")
-#         for i in password:
-#             if password.isalpha():
-#                 has_letter = True
-#                 continue
-#             elif password.isdigit():
-#                 has_digit = True
-#                 continue
-#             else:
-#                 has_symbol = True
-#                 continue 
-#     except Exception as error:
-#         print(error)
-
-dict_1 = {"abc" : 5, 666 : "a", (1,1,12,3) : [3,3,3,3]}
-dict_2 = {"66" : 59, 646 : "abb", (1,1,3) : [3,3,3,3]}
-
-for i, j in enumerate(dict_1):
-    dict_2[i] = j
-print(hash("abc"))
+#First assingment
+print("Twinkle, twinkle, little star,", "\tHow I wonder what you are!","\t\tUp above the world so high,", "\t\tLike a diamond in the sky.", "Twinkle, twinkle, little star,", "\tHow I wonder what you are!", sep = "\n", end = "\n\n")
+#Second assignment
+print('Hello Python world, where “\\n” is used for moving new line and “\\t” is used for a tab', end = "\n\n")
+#Third assignment
+print('name: Davit\tsurname: Ter-Torosyan', 'office: Politexnik\tfield: IT', sep = '\n')
